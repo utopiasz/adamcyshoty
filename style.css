@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+}
+
+.video{
+    background-color: gray;
+    height: 46em;
+    width: 70%;
+}
+video{
+    display: flex;
+    align-items: center;
+    height: 50em;
+    width: 100%;
+    opacity: 1;
+}
+.menu{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    color: aliceblue;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: flex-end;
+    font-size: 200%;
+    overflow: hidden;
+}
+.przycisk{
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.przycisk:visited{
+    color: aliceblue;
+}
+.przycisk:hover{
+    transition: all 0.3s;
+    color: grey;
+}
+
+.autor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: aliceblue;
+    opacity: 0.19;
+    cursor: default;
+}
+
+#desc{
+    font-size: 250%;
+    top: 7px;
+    display: block;
+    text-align: center;
+    cursor: default;
+    color: aliceblue;
+}
+.note{
+    margin-top: 0px;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    opacity: 0.4;
+    cursor: default;
+}
